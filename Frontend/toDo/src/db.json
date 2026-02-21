@@ -1,0 +1,60 @@
+{
+    "Tasks":[
+        {
+            "id": 1,
+            "task": "Get groceries",
+            "desc": "10 am hurry up  ",
+            "dueDate": 23,
+            "creationDate": 2334,
+            "isFinished": false,
+            "importance": "low",
+            "mode": "todo",
+            "completionDate": 23423
+        }
+        ,
+        {
+            "id": 2,
+            "task": "Wedding",
+            "desc": "prepare for ur friend's wedding dont be late!!",
+            "dueDate": 11,
+            "creationDate": 2334,
+            "isFinished": false,
+            "importance": "moderate",
+            "mode": "todo",
+            "completionDate": 23423
+        },
+        {
+            "id": 3,
+            "task": "Homework",
+            "desc": "Deadline 12:00 sat careful",
+            "dueDate": 333,
+            "creationDate": 2334,
+            "isFinished": false,
+            "importance": "important",
+            "mode": "done",
+            "completionDate": 23423
+        },
+        {
+            "id": 4,
+            "task": "Pie",
+            "desc": "salt\npepper\nflour\nwater\ncornstarch\nnuts ",
+            "dueDate": 0,
+            "creationDate": 2334,
+            "isFinished": true,
+            "importance": "critical",
+            "mode": "todo",
+            "completionDate": 23423
+        },
+        {
+            "id": 5,
+            "task": "Mark at school",
+            "desc": "inerview at 5 subject english with some math",
+            "dueDate": 11,
+            "creationDate": 2334,
+            "isFinished": false,
+            "importance": "low",
+            "mode": "todo",
+            "completionDate": 23423
+        }
+    ]
+}

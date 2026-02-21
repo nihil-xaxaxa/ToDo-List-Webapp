@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Todo
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: ${SERVER_PORT}
+
+jwt:
+  access_token_expiration: ${ACCESS_TOKEN_EXPIRATION}
+  refresh_token_expiration: ${REFRESH_TOKEN_EXPIRATION}
+  secret: ${JWT_SECRET}
+

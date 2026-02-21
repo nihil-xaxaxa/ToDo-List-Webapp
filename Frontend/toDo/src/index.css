@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+
+@theme
+{
+  --font-logo: Notable;
+  --font-custom: DM Sans;
+  --color-white: #ffffff;
+  --color-offWhite:#FEFEFE;
+  --color-cream: #f1fffa;
+  --color-tea: #ccfccb;
+  --color-celadon: #96e6b3;
+  --color-fern: #568259;
+  --color-grey: #464e47;
+  --color-orange:#ff5b04;
+  --color-darkOrange:#cc4803;
+  --color-lightGrey:#f8f8f8;
+  --color-emerald:#2e7d5a;
+
+  --color-critical: #FF3B30;
+  --color-important: #FF5B04;   
+  --color-moderate: #FFD265;
+  --color-low: #B7EACB;
+
+  --color-nyanza:#cfeee0;
+  --color-teaLight:#dcf6d8;
+  --color-peach:#ffdfc1;
+  --color-mint:#c2f2df;
+  --color-sand:#ffe8db;
+  --color-mist:#e7e9ea;
+  --color-lavender:#e9ddf9;
+  --color-melon:#ffd1c9;
+
+
+}
