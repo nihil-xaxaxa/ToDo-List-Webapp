@@ -1,5 +1,6 @@
 package com.Backend.Springboot.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
@@ -11,10 +12,12 @@ import java.util.List;
 @Configuration
 public class CorsConfig {
 
+    @Value("${frontend_url}")
+    private String AcceptedUrl;
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("https://todo-list-webapp-ah4q.onrender.com"));
+        config.setAllowedOrigins(List.of(AcceptedUrl));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);

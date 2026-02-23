@@ -16,3 +16,5 @@ jwt:
   refresh_token_expiration: ${REFRESH_TOKEN_EXP}
   secret: ${JWT_SECRET}
 
+frontend_url : ${FRONTEND_URL}
+
